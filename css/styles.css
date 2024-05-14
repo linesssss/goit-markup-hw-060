@@ -1,6 +1,6 @@
 body{
     font-family: "Roboto", sans-serif;
-    color: #434445;
+    color: #434455;
     background-color: #ffffff;
     font-size: 16px;
     font-weight: 400;
@@ -14,7 +14,7 @@ body{
     text-transform: uppercase;
     color: #4d5ae5;
 }
-.span-accent{
+.logo-accent{
     color: #2e2f42;
 }
 .nav-link{
@@ -36,7 +36,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434445;
+    color: #434455;
 }
 .contacts:hover {
     color: #404bbf;
@@ -48,7 +48,7 @@ body{
     background-color: #2e2f42;
 }
 .title-section{
-    font-size: 54px;
+    font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -84,7 +84,7 @@ body{
     color: #434455;
 }
 .section-two{
-    color: #F4F4FD;
+    background-color: #F4F4FD;
 }
 .title-section-two{
     font-size: 36px;
