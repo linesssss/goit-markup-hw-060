@@ -134,6 +134,9 @@ body{
 .footer{
     background-color: #2e2f42;
 }
+.logo-accent-two{
+    color: #f4f4fd;
+}
 .footer-text{
     line-height: 1.5;
     letter-spacing: 0.02em;
