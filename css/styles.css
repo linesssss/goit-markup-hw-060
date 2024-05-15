@@ -5,8 +5,12 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+ul {
+    list-style-type: none;
+}
 .logo{
     font-family: "Raleway", sans-serif;
+    text-decoration: none;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -22,6 +26,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 .nav-link:hover {
      color: #404bbf;
@@ -37,6 +42,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 .contacts:hover {
     color: #404bbf;
