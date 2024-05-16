@@ -5,7 +5,14 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-ul {
+
+h1,
+h2,
+h3,
+p,
+ul{
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 .logo{
