@@ -98,8 +98,20 @@ ul{
 .contacts:focus{
     color: #404bbf;
 }
+
+.main-container{
+    margin: auto;
+    padding: 0 600px;
+    background-color: #2e2f42;
+}
 .section-one{
     background-color: #2e2f42;
+    align-items: center;
+    text-align: center;
+    width: 1440px;
+     height: 600px;
+        left: 0px;
+        top: 72px;
 }
 .title-section{
     font-size: 56px;
@@ -107,6 +119,7 @@ ul{
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    align-items: center;   
 }
 
 .button{
@@ -118,6 +131,13 @@ ul{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+
 }
 .button:hover{
     background-color: #404BBF;
@@ -198,3 +218,6 @@ ul{
     color: #F4F4FD;
 }
 
+img{ 
+    display: block;
+}
