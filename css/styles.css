@@ -27,7 +27,6 @@ ul{
 }
 .container{
     width: 1158px;
-    padding: 0 15px;
     margin: auto;
 }
 .header-container{
@@ -114,14 +113,10 @@ ul{
     color: #404bbf;
 }
 
-.main-container{
-    display: inline-block;
-    align-items: center;
-    padding: 188px 0;
-}
 .section-one{
     background-color: #2e2f42;
     align-items: center;
+    padding: 188px 0;
 }
 .title-section{
     font-size: 56px;
@@ -132,6 +127,7 @@ ul{
     max-width: 496px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .button{
