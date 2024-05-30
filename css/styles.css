@@ -155,6 +155,10 @@ ul{
     background-color: #404BBF;
 }
 
+.main-container{
+    background-image: url(../images/icons.svg/people-office\ 1.svg);
+    background-repeat: no-repeat;
+}
 .main-content{
     padding-top: 120px;
     padding-bottom: 120px;
