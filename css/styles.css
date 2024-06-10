@@ -127,7 +127,7 @@ ul{
     align-items: center;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/);
+    url(../images/icons.svg/people-office\ 1.svg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -176,13 +176,12 @@ ul{
     justify-content: center;
     height: 112px;
     background-color: #f4f4fd;
-    border-radius: 1px solid #8e8f99;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
     margin-bottom: 8px;
 
 }
 .main-container{
-    background-image: url(../images/icons.svg/people-office\ 1.svg);
-    background-repeat: no-repeat;
     background-size: 1440px 600px;
     background-image: linear-gradient rgba(46,47,66,0.7);
 }
@@ -236,6 +235,7 @@ ul{
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 .main-name{
     padding: 32px 0;
@@ -273,6 +273,7 @@ ul{
     gap: 24px;
     margin: 0 auto;
     padding-top: 8px;
+    
 }
 
 .social-icon{
@@ -302,6 +303,14 @@ ul{
 }
 .images-two{
     width: calc((100% - 48px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.images-two:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
+    ;
 }
 .title-section-three{
     font-size: 36px;
