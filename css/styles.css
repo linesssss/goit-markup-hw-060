@@ -50,8 +50,20 @@ ul{
     color: #4d5ae5;
     display: block;
     margin-right: 76px;
+    position: relative; 
+    color: #404bbf;
 }
-
+.logo ::after {
+    content: '';
+    width: 100%;
+    position: absolute; 
+    left: 0;
+    bottom: -1px;
+    height: 4px; 
+    background-color: #404bbf;
+     border-radius: 2px; 
+     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .logo-accent{
     color: #2e2f42;
 }
@@ -127,7 +139,7 @@ ul{
     align-items: center;
     padding: 188px 0;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/icons.svg/people-office\ 1.svg);
+        url(../images/img-name.jpeg);
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
@@ -181,6 +193,7 @@ ul{
     margin-bottom: 8px;
 
 }
+
 .main-container{
     background-size: 1440px 600px;
     background-image: linear-gradient rgba(46,47,66,0.7);
@@ -289,6 +302,9 @@ ul{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icon:hover{
+    background-color: #404bbf;
+}
+.social-icon:focus{
     background-color: #404bbf;
 }
 .instagram{
