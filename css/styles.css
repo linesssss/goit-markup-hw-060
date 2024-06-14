@@ -412,7 +412,7 @@ ul{
 .container-footer{
     width: 264px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: start;
     margin-left: 112px;
     align-items: baseline;
