@@ -33,6 +33,7 @@ ul{
 .container{
     width: 1158px;
     margin: auto;
+    padding: 0 15px;
 }
 .header-container{
     display: flex;
@@ -97,11 +98,16 @@ ul{
     margin-right: 24px 0;
     display: block;
     padding: 24px 0;
+}
+.current{
     position: relative;
     color: #404BBF;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-link::after{
+    
+
+.current::after{
+    display: block;
     content: '';
     width: 100%;
     position: absolute;
@@ -407,13 +413,11 @@ ul{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 
 .container-footer{
-    width: 264px;
     display: flex;
-    flex-direction: row;
-    justify-content: start;
     margin-left: 112px;
     align-items: baseline;
     
