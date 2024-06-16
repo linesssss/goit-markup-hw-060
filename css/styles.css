@@ -563,13 +563,19 @@ img{
 }
 
 .modal-button{
+    display: block;
     border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
     background-color: #4d5ae5;
-    
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-label{
@@ -600,7 +606,7 @@ img{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
+    color: #2e2f4266;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
@@ -614,6 +620,21 @@ img{
     border-color: #4D5AE5;
 }
 
+.modal-span{
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     fill: transparent;
+}
+
+
 .checkbox{
     margin-bottom: 24px;
 }
@@ -623,5 +644,10 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+
+}
+
+.modal-link{
+    color: #4d5ae5;
     
 }
