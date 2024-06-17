@@ -589,11 +589,13 @@ img{
 .modal-close:hover{
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-close:focus{
     background-color: #404bbf;
     border: none;
+    fill: #ffffff;
 }
 
 .modal-icon-close{
@@ -601,12 +603,6 @@ img{
 
 }
 
-.modal-icon-close:hover{
-    fill: #ffffff;
-}
-.modal-icon-close:focus{
-    fill: #ffffff;
-}
 
 .modal-input{
     width: 100%;
@@ -624,9 +620,6 @@ img{
 }
 .modal-input:focus + .modal-icon{
     fill: #4d5ae5;
-}
-.modal-field{
-    margin-bottom: 16px;
 }
 
 .modal-button{
@@ -697,7 +690,9 @@ img{
 .modal-text:focus{
     border-color: #4D5AE5;
 }
-
+.modal-field{
+    margin-bottom: 8px;
+}
 .modal-field-checkbox{
     margin-bottom: 24px;
 }
