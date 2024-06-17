@@ -601,7 +601,10 @@ img{
 
 }
 
-.modal-icon-close:hover:focus{
+.modal-icon-close:hover{
+    fill: #ffffff;
+}
+.modal-icon-close:focus{
     fill: #ffffff;
 }
 
@@ -623,7 +626,7 @@ img{
     fill: #4d5ae5;
 }
 .modal-field{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .modal-button{
@@ -644,6 +647,15 @@ img{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+.modal-label{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
+}
 .form-label{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -686,7 +698,9 @@ img{
     border-color: #4D5AE5;
 }
 
-
+.modal-field-checkbox{
+    margin-bottom: 24px;
+}
 
 .modal-checkbox:checked + .modal-label-checkbox > .modal-span {
     background-color: #404bbf;
