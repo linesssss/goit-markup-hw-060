@@ -538,11 +538,11 @@ img{
 }
 
 
-/*.is-open{
+.is-open{
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}*/
+}
 .modal{
     position: absolute;
     width: 408px;
