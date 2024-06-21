@@ -88,7 +88,7 @@ ul{
     gap: 40px;*/
     display: none;
 }
-.nav-link{
+/*.nav-link{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -97,7 +97,7 @@ ul{
     margin-right: 24px 0;
     display: block;
     padding: 24px 0;
-}
+}*/
 /*.current{
     position: relative;
     color: #404BBF;
@@ -235,6 +235,7 @@ ul{
 .one-content{
     /*width: calc((100% - 72px) / 4);*/
     padding-right: 25px;
+    width: 100%;
 }
 .content-title{
     font-weight: 500;
@@ -779,6 +780,8 @@ img{
      
     .container-content{
         gap: 44px 88px;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .one-content{
@@ -976,4 +979,6 @@ img{
     margin-right: auto;
     margin-bottom: 48px;
 }
+
+
 }
