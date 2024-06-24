@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="Effective solutions
         for your business">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
@@ -105,7 +106,7 @@
         <h2 class="title-section-two">Our Team</h2>
     <ul class="main-images">
         <li class="images">
-            <img srcset="./images/mark.tab.jpg, ./images/mark.mob.jpg"
+            <img srcset="./images/img(1).jpg 1x, ./images/mark-mob.jpg 2x"
             src="./images/img(1).jpg" alt="Mark Guerrero" width="264" height="260">
         <div class="main-name">
             <h3 class="title-name">Mark Guerrero</h3>
@@ -143,7 +144,8 @@
         </div>
         </li>
         <li class="images">
-            <img src="./images/img(2).jpg" alt="Tom Ford" width="264" height="260">
+            <img srcset="./images/img(2).jpg 1x, ./images/tom-mob.jpg 2x"
+            src="./images/img(2).jpg" alt="Tom Ford" width="264" height="260">
         <div class="main-name">
             <h3 class="title-name">Tom Ford</h3>
             <p class="content-two">Frontend Developer</p>
@@ -180,7 +182,8 @@
         </div>
         </li>
         <li class="images">
-            <img src="./images/img(3).jpg" alt="Camila Garcia" width="264" height="260">
+            <img srcset="./images/img(3).jpg 1x, ./images/camila-mob.jpg 2x"
+            src="./images/img(3).jpg" alt="Camila Garcia" width="264" height="260">
         <div class="main-name">
             <h3 class="title-name">Camila Garcia</h3>
             <p class="content-two">Marketing</p>
@@ -217,7 +220,8 @@
         </div>
         </li>
         <li class="images">
-            <img src="./images/img(4).jpg" alt="Daniel Wilson" width="264" height="260">
+            <img srcset="./images/img(4).jpg 1x, ./images/daniel-mob.jpg 2x"
+            src="./images/img(4).jpg" alt="Daniel Wilson" width="264" height="260">
         <div class="main-name">
             <h3 class="title-name">Daniel Wilson</h3>
             <p class="content-two">UI Designer</p>
@@ -262,7 +266,12 @@
     <ul class="main-images-two">
         <li class="images-two">
                 <div class="three-image-icon">
-                     <img src="./images/img5.jpg" alt="Banking App" width="360" height="300">
+                    <picture>
+                        <source srcset="./images/img5.jpg 1x, ./images/bank-mob.jpg 2x" media="(min-width: 1158px)" />
+                        <source srcset="./images/bank-tab.jpg 1x, ./images/bank-mob.jpg 2x" media="min-width: 768px" />
+                        <source srcset="./images/bank-tab.jpg 1x, ./images/bank-mob.jpg 2x" media="max-width: 767px" />
+                        <img src="./images/img5.jpg" alt="Banking App" width="360" height="300">
+                    </picture>
                      <p class="image-icon-pgf">
                         14 Stylish and User-Friendly App Design Concepts · 
                         Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -276,7 +285,12 @@
 
         <li class="images-two">
                 <div class="three-image-icon">
-                    <img src="./images/img6.jpg" alt="Cashless Payment" width="360" height="300">
+                    <picture>
+                        <source srcset="./images/img6.jpg 1x, ./images/cash-mob.jpg 2x" media="(min-width: 1158px)" />
+                        <source srcset="./images/cash-tab.jpg 1x, ./images/cash-mob.jpg 2x" media="min-width: 768px" />
+                        <source srcset="./images/cash-tab.jpg 1x, ./images/cash-mob.jpg 2x" media="max-width: 767px" />
+                        <img src="./images/img6.jpg" alt="Cashless Payment" width="360" height="300">
+                    </picture>
                     <p class="image-icon-pgf">
                         14 Stylish and User-Friendly App Design Concepts · 
                         Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -290,7 +304,12 @@
 
         <li class="images-two">
                 <div class="three-image-icon">
-                    <img src="./images/img7.jpg" alt="Meditation App" width="360" height="300">
+                    <picture>
+                        <source srcset="./images/img7.jpg 1x, ./images/meditation-mob.jpg 2x" media="(min-width: 1158px)" />
+                        <source srcset="./images/meditation-tab.jpg 1x, ./images/meditation-mob.jpg 2x" media="min-width: 768px" />
+                        <source srcset="./images/meditation-tab.jpg 1x, ./images/meditation-mob.jpg 2x" media="max-width: 767px" />
+                        <img src="./images/img7.jpg" alt="Meditation App" width="360" height="300">
+                    </picture>
                     <p class="image-icon-pgf">
                         14 Stylish and User-Friendly App Design Concepts · 
                         Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -304,7 +323,12 @@
 
         <li class="images-two">
                 <div class="three-image-icon">
-                    <img src="./images/img8.jpg" alt="Taxi Service" width="360" height="300">
+                    <picture>
+                        <source srcset="./images/img8.jpg 1x, ./images/taxi-mob.jpg 2x" media="(min-width: 1158px)" />
+                        <source srcset="./images/taxi-tab.jpg 1x, ./images/taxi-mob.jpg 2x" media="min-width: 768px" />
+                        <source srcset="./images/taxi-tab.jpg 1x, ./images/taxi-mob.jpg 2x" media="max-width: 767px" />
+                        <img src="./images/img8.jpg" alt="Taxi Service" width="360" height="300">
+                    </picture>
                     <p class="image-icon-pgf">
                         14 Stylish and User-Friendly App Design Concepts · 
                         Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -318,7 +342,12 @@
 
         <li class="images-two">
                 <div class="three-image-icon">
-                     <img src="./images/img9.jpg" alt="Screen Illustrations" width="360" height="300">
+                    <picture>
+                        <source srcset="./images/img9.jpg 1x, ./images/screen-mob.jpg 2x" media="(min-width: 1158px)" />
+                        <source srcset="./images/screen-tab.jpg 1x, ./images/screen-mob.jpg 2x" media="min-width: 768px" />
+                        <source srcset="./images/screen-tab.jpg 1x, ./images/screen-mob.jpg 2x" media="max-width: 767px" />
+                        <img src="./images/img9.jpg" alt="Screen Illustrations" width="360" height="300">
+                    </picture>
                      <p class="image-icon-pgf">
                         14 Stylish and User-Friendly App Design Concepts · 
                         Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
@@ -332,7 +361,12 @@
 
         <li class="images-two">
                 <div class="three-image-icon">
-                    <img src="./images/img10.jpg" alt="Online Courses" width="360" height="300">
+                    <picture>
+                        <source srcset="./images/img10.jpg 1x, ./images/online-mob.jpg 2x" media="(min-width: 1158px)" />
+                        <source srcset="./images/online-tab.jpg 1x, ./images/online-mob.jpg 2x" media="min-width: 768px" />
+                        <source srcset="./images/online-tab.jpg 1x, ./images/online-mob.jpg 2x" media="max-width: 767px" />
+                        <img src="./images/img10.jpg" alt="Online Courses" width="360" height="300">
+                    </picture>
                     <p class="image-icon-pgf">
                         14 Stylish and User-Friendly App Design Concepts · 
                         Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
